@@ -1,0 +1,8 @@
+File =
+  Struct*
+
+Struct =
+  'struct' name:'ident' '{' Field* '}'
+
+Field =
+  name:'name' ':' ty:'name' ','?
