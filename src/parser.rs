@@ -25,9 +25,7 @@ fn field(p: &mut Parser, field: &mut Field) {
     }
 }
 
-struct Parser {
-    f: i32,
-}
+struct Parser {}
 
 impl Parser {
     fn is_eof(&self) -> bool {
